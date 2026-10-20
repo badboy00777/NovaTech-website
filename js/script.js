@@ -2,7 +2,7 @@ const menuBtn = document.getElementById('menuBtn');
 const navLinks = document.getElementById('navLinks');
 
 menuBtn.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
+    navLinks.classList.toggle('open');
 });
 
 const currentPage = window.location.pathname.split('/').pop();
