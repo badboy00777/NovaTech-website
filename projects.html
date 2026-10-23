@@ -28,7 +28,73 @@
     </header>
 
     <main>
-        <!-- page content goes here -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Projects</h1>
+                <p>A look at some of the products we have designed and built.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+                </div>
+
+                <div class="grid grid-wide">
+                    <article class="card project-card" data-category="web">
+                        <img src="images/project1.jpg" alt="ShopEase online store">
+                        <div class="card-body">
+                            <span class="tag">Web App</span>
+                            <h3>ShopEase</h3>
+                            <p>A complete online store with product search, cart, secure checkout and an admin panel.
+                            </p>
+                            <p class="tech">React · Node.js · MongoDB</p>
+                        </div>
+                    </article>
+                    <article class="card project-card" data-category="dashboard">
+                        <img src="images/project2.jpg" alt="FleetTrack dashboard">
+                        <div class="card-body">
+                            <span class="tag">Dashboard</span>
+                            <h3>FleetTrack</h3>
+                            <p>A live dashboard for tracking vehicles, routes and fuel usage across a delivery fleet.
+                            </p>
+                            <p class="tech">PHP · MySQL · Maps API</p>
+                        </div>
+                    </article>
+                    <article class="card project-card" data-category="web">
+                        <img src="images/project3.jpg" alt="LearnHub learning portal">
+                        <div class="card-body">
+                            <span class="tag">Web App</span>
+                            <h3>LearnHub</h3>
+                            <p>An online learning portal where students enrol in courses, watch lessons and track
+                                progress.</p>
+                            <p class="tech">Laravel · MySQL · JavaScript</p>
+                        </div>
+                    </article>
+                    <article class="card project-card" data-category="mobile">
+                        <img src="images/project4.jpg" alt="HealthPlus appointment app">
+                        <div class="card-body">
+                            <span class="tag">Mobile App</span>
+                            <h3>HealthPlus</h3>
+                            <p>A mobile-first appointment booking app connecting patients with local clinics.</p>
+                            <p class="tech">React · Firebase</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Like What You See?</h2>
+                <p>Let's build your next project together.</p>
+                <a href="contact.html" class="btn btn-light">Start a Project</a>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
